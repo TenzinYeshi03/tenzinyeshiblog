@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navigation Bar  */
+#navbar{
+    background-color: #4a6d74;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+#navbar ul{
+    display: flex; 
+    
+}
+#navbar ul li{
+    list-style: none;
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 6px 18px;
+    /* border-radius: 12px; */
+    font-family: 'Special Elite', cursive;
+    font-size: 1.2rem;
+}
+#navbar ul li a:hover{
+    border: 2px solid grey;
+    color: black;
+    background-color:white;
+}
+
+/* Home Section  */
+#home{
+    background-color: #fab1de;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home h1{
+    font-family: 'Amatic SC', cursive;
+    text-decoration: underline;
+}
+#home p{
+    font-family: 'sans-serif';
+    color: #9d8291;
+    margin: 12px 3px;
+}
+#iconimage{
+    height: 85px;
+    width: 75px;
+    filter: invert();
+    padding: 12px;
+}
+/* Aboutme Section  */
+#about{
+    background-color: #a7dfea;
+}
+#myimage{
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  height: 354px;
+    width: 300px;
+    margin: 50px 65px;
+    object-fit:cover;
+   /* object-position:50% 50%; */
+   border-radius: 12px;
+    box-shadow: -4px -5px #fbbebe;
+}
+#aboutinside{
+    background-color: #e68080;
+    border: 2px solid #f9f3f3;
+    margin: 20px 52px;
+    border-radius: 23px;
+    display: flex;
+}
+#aboutinside p{
+    margin: 47px 1px;
+    padding: 47px 31px;
+    text-align: center;
+}
+
+
+/* Book Review Section  */
+
+#bookcontainer{
+    display: block;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    background-color: #beefef;
+}
+.bookbox{
+    border: 2px solid rgb(71, 71, 71);
+    height: 500px;
+    width: 300px;
+    margin: 12px 32px;
+    padding: 12px 32px;
+    background-color: rgb(32, 30, 30);
+    border-radius: 23px;
+
+}
+.bookimage{
+    height: 134px;
+    width: 140px;
+    display: block;
+    margin: 18px auto;
+    border-radius: 12px;
+    /* object-fit:cover; */
+   /* object-position:50% 50%; */
+}
+#book>h1{
+    color: gray;
+}
+.bookbox p{
+    margin: 23px 2px;
+}
+.bookbox h1{
+    margin: 23px 2px;
+}
+
+/* Contact Section  */
+#contact{
+    
+}
+
+#contactbox{
+    height: 300px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+    margin: 20px auto;
+    padding: 43px 3px;
+    flex-direction: column;
+    border-radius: 23px;
+    background-color: peachpuff;
+    
+}
+#contactform{
+display: flex;
+flex-direction: column;
+margin: 23px 12px;
+}
+.formitem{
+    margin: 5px auto;
+    padding: 5px 2px;
+    width: 300px;
+    text-align: center;
+}
+.btn{
+    padding: 4px;
+    background-color: rgb(231, 174, 167);
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+}
+#contactbox h1{
+color: black;
+}
+
+/* Footer  */
+.foot{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+
+/* Utility Classes  */
+.h-primary{
+    font-size: 60px;
+    padding: 3px 12px;
+}
+.h-secondary{
+    font-size: 23px;
+    padding: 3px 12px;
+}
+.center{
+    text-align: center;
+}
+h1, h2, p{
+    color: white;
+}
+
+
+/* Responsive Design  */
